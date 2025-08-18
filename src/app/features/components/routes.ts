@@ -14,5 +14,26 @@ export const COMPONENTS_ROUTES: Routes = [
       import('./cards/cards.component')
         .then(m => m.CardsComponent),
     title: 'Cards'
+  },
+    {
+    path: 'dropdowns',
+    loadComponent: () =>
+      import('./dropdowns/dropdowns.component')
+  .then(m => m.DropdownsComponent),
+    title: 'Dropdowns'
+  },
+    {
+    path: 'selects',
+    loadComponent: () =>
+      import('./select/select.component')
+    .then (m => m.SelectComponent),
+    title: 'Select'
+  },
+     {
+    path: 'forms',
+    loadComponent: () =>
+      import('./forms/forms.component')
+    .then (m => m.FormsComponent),
+    title: 'Forms'
   }
 ]

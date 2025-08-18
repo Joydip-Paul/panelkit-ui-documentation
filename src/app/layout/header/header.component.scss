@@ -1,0 +1,17 @@
+.header {
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            padding-left: 0;
+            list-style: none;
+            display: flex;
+            gap: 10px;
+        }
+    }
+}

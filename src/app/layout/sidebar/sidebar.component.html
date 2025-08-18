@@ -1,33 +1,29 @@
 <div class="sidebar">
   <div class="search">
-    <input placeholder="Search components…" />
+    <input placeholder="Search components…" class="pk-input w-100"/>
   </div>
-
-  <div class="group">
-    <div class="group-title">Getting started</div>
-    <nav class="nav">
+  <h3>Getting started</h3>
+  <ul>
+    <li>
       <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
         <span class="bullet"></span> Introduction
       </a>
-      <a routerLink="/installation" routerLinkActive="active">
-        <span class="bullet"></span> Installation
-      </a>
-    </nav>
-  </div>
+    </li>
+  </ul>
 
-  <div class="group">
-    <div class="group-title">Components</div>
-    <div class="tree">
-      <div class="tree-item">
-        <button class="tree-label">
-          Buttons
-          <span>›</span>
-        </button>
-        <div class="tree-children">
-          <a class="nav-link" routerLink="/components/buttons" routerLinkActive="active">Overview</a>
-          <a class="nav-link" routerLink="/components/buttons/api" routerLinkActive="active">API</a>
-        </div>
-      </div>
-    </div>
+  <h3>Components</h3>
+  <ul>
+    <li>
+        <a class="nav-link" routerLink="/components/buttons" routerLinkActive="active">Buttons</a>
+    </li>
+     <li>
+        <a class="nav-link" routerLink="/components/dropdowns" routerLinkActive="active">Dropdowns</a>
+    </li>
+      <li>
+        <a class="nav-link" routerLink="/components/selects" routerLinkActive="active">Selects</a>
+    </li>
+     <li>
+        <a class="nav-link" routerLink="/components/forms" routerLinkActive="active">Forms</a>
+    </li>
+  </ul>
   </div>
-</div>
