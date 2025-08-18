@@ -1,1 +1,33 @@
-<p>sidebar works!</p>
+<div class="sidebar">
+  <div class="search">
+    <input placeholder="Search components…" />
+  </div>
+
+  <div class="group">
+    <div class="group-title">Getting started</div>
+    <nav class="nav">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        <span class="bullet"></span> Introduction
+      </a>
+      <a routerLink="/installation" routerLinkActive="active">
+        <span class="bullet"></span> Installation
+      </a>
+    </nav>
+  </div>
+
+  <div class="group">
+    <div class="group-title">Components</div>
+    <div class="tree">
+      <div class="tree-item">
+        <button class="tree-label">
+          Buttons
+          <span>›</span>
+        </button>
+        <div class="tree-children">
+          <a class="nav-link" routerLink="/components/buttons" routerLinkActive="active">Overview</a>
+          <a class="nav-link" routerLink="/components/buttons/api" routerLinkActive="active">API</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
