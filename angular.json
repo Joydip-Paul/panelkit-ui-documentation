@@ -30,9 +30,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/panelkit-ui/dist/main.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/panelkit-ui/dist/panelkit.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,9 +93,12 @@
               "src/assets"
             ],
             "styles": [
+               "node_modules/panelkit-ui/dist/main.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+               "node_modules/panelkit-ui/dist/panelkit.js"
+            ]
           }
         }
       }
