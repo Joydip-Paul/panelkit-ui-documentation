@@ -1,1 +1,122 @@
-<p>introduction works!</p>
+<article class="intro">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__text">
+        <!-- Enhanced hero title with gradient text and better typography -->
+        <h1 class="hero__title">
+          <span class="gradient-text">PanelKit</span> UI
+        </h1>
+        <p class="lead">
+          A lightweight CSS/SCSS framework and patterns for building elegant, consistent UIs in Angular.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" routerLink="/getting-started">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+            Get Started
+          </a>
+          <a class="btn btn--secondary" href="https://github.com/your-username/panelkit-ui" target="_blank" rel="noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+
+        <div class="badges">
+          <span class="tag tag--angular">Angular 17</span>
+          <span class="tag tag--scss">SCSS</span>
+          <span class="tag tag--dark">Dark mode</span>
+          <span class="tag tag--a11y">Accessibility</span>
+        </div>
+      </div>
+
+      <div class="hero__code">
+        <div class="code">
+          <div class="code__header">
+            <div class="code__dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="code__title">Install</div>
+          </div>
+          <pre><code>npm i panelkit-ui</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key features -->
+  <section class="features container" id="features">
+    <!-- Enhanced section header with better typography -->
+    <div class="section-header">
+      <h2>Why PanelKit</h2>
+      <p class="sub">Design tokens, utilities, and polished building blocks for fast, consistent UI.</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="card card--feature">
+        <div class="card__icon card__icon--tokens">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
+          </svg>
+        </div>
+        <h3>Design Tokens</h3>
+        <p>Color, spacing, radius, and typography exposed as variables for full control.</p>
+      </div>
+      <div class="card card--feature">
+        <div class="card__icon card__icon--utilities">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <h3>Utilities</h3>
+        <p>Helpful classes for layout, spacing, and typography — compose without bloat.</p>
+      </div>
+      <div class="card card--feature">
+        <div class="card__icon card__icon--theming">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </div>
+        <h3>Theming</h3>
+        <p>Light/Dark via CSS variables; swap themes at runtime without repaint pain.</p>
+      </div>
+      <div class="card card--feature">
+        <div class="card__icon card__icon--accessible">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="4" r="2"/>
+            <path d="m15 8-3-2-3 2"/>
+            <path d="M12 6v16"/>
+          </svg>
+        </div>
+        <h3>Accessible</h3>
+        <p>Contrast-aware colors and focus styles that work with keyboard and screen readers.</p>
+      </div>
+      <div class="card card--feature">
+        <div class="card__icon card__icon--composability">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v20M2 12h20"/>
+            <path d="m19 9-7 7-7-7"/>
+          </svg>
+        </div>
+        <h3>Composability</h3>
+        <p>Use with Angular components or plain HTML. No lock-in, no magic.</p>
+      </div>
+      <div class="card card--feature">
+        <div class="card__icon card__icon--performance">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+          </svg>
+        </div>
+        <h3>Performance</h3>
+        <p>Small, cache-friendly CSS; sensible defaults to keep pages fast.</p>
+      </div>
+    </div>
+  </section>
+</article>
