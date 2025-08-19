@@ -15,7 +15,6 @@ It provides a clean layout with a header, sidebar navigation, content area, and 
 - 🔄 **Lazy-loaded routes** for better performance
 - 🧩 **Reusable layout**: header, footer, and sidebar
 
----
 
-## 📂 Project Structure
-
+## NPM PACKAGE
+# npm i panelkit-ui

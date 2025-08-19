@@ -1,0 +1,20 @@
+.footer {
+    background-color: #b2d5fe;
+    padding: 20px;
+    text-align: center;
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .btn-group {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+}
